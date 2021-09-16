@@ -1,5 +1,5 @@
 #This is a playground! It contains fun stuff!
-def arogram(afile):
+def aProgram(afile):
     theFile = open(afile, "r+")
     count = 0
     lineTwo = "this is line 2"
@@ -8,5 +8,5 @@ def arogram(afile):
         print(line)
     theFile.close()
 
-if __name__ == "arogram":
-    arogram("Example.txt")
+if __name__ == "__main__":
+    aProgram("Example.txt")
